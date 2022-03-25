@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
-import Proj from '../assets/Images/projet.png'
-import Cable from '../assets/Images/cable.png'
+import Proj from '../assets/Images/projet.svg'
+import Cable from '../assets/Images/cable.svg'
 
 const Container = styled.div`
 position: relative;
@@ -44,7 +44,7 @@ const AnchorComponent = (props) => {
             let bodyHeight = document.body.offsetHeight;
             
             let diff = Math.max(bodyHeight - (scrollPosition + windowSize) )
-            //diff*100/scrollposition
+
             let diffP = (diff * 100) / (bodyHeight - windowSize);
 
             ref.current.style.transform = `translateY(${-diffP}%)`

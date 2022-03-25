@@ -8,7 +8,7 @@ import SocialIcons from '../subComponents/SocialIcons';
 import BackButton from '../subComponents/BackButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
-import Coding from '../assets/Images/coding.png'
+import { Coding } from '../components/AllSvgs'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -93,7 +93,7 @@ const MySkillsPage = () => {
 <ParticleComponent theme='light' />
             <Main>
 <Title>
-    <img src={Coding} alt="coding" width={40} height={40} /> Développement Web
+    <Coding width={40} height={40} /> Développement Web
 </Title>
 <Description>
 <strong>Développement</strong>

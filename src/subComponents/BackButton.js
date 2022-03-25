@@ -3,7 +3,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import Back from '../assets/Images/back.png'
+import Back from '../assets/Images/back.svg'
 
 
 const Power = styled.button`
